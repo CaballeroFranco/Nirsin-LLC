@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 /* COMPONENTS */
-/* import Header from "./components/Header"; */
+import Header from "./components/Header";
 import Services from "./components/Services";
 import AboutUs from "./components/AboutUs";
 import Cards from "./components/Cards";
@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <div>
-        {/* <Header /> */}
+        <Header />
         <AboutUs />
         <Cards />
         <Services />
