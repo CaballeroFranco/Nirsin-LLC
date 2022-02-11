@@ -11,7 +11,7 @@ function DrawerMenu() {
         <ul>
           <li>
             <a href="/">
-              <span class="title">Home</span>
+              <span class="title">Hom</span>
             </a>
           </li>
           <li>
