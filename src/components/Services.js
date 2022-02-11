@@ -22,7 +22,7 @@ function Services() {
               <h2>Travel - Transform</h2>
               <hr className="line-2" />
               <p>
-                We live in a time of unprecedented competition, markets volatile
+                We live in a time of unprecedente competition, markets volatile
                 and disruptive business models. Expectations are higher than
                 ever. The change is not fast. It is exponential.
               </p>
