@@ -1,4 +1,4 @@
-import { gsap } from "gsap";
+/* import { gsap } from "gsap"; */
 import { BrowserRouter as Router } from "react-router-dom";
 
 /* STYLES */
