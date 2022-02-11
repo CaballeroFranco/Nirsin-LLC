@@ -23,7 +23,7 @@ const Cards = () => {
             <CardContent
               image={services}
               alt="Quality in service"
-              title="Quality in services"
+              title="Quality in service"
               text="We manage that all the elements involved in the trip and the process of providing the service work in an integrated way to meet expectations."
             />
           </div>
