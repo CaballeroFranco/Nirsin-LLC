@@ -19,7 +19,7 @@ const AboutUs = () => {
           <div className="col-6 container-article ">
             <article>
               <h2 className="title">
-                About Us{" "}
+                About s{" "}
                 <span>
                   <hr className="line-1" />
                 </span>{" "}
