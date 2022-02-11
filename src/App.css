@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Quicksand:wght@300;400;500;600&display=swap");
+
+/* Header */
+
+.blank {
+  min-height: 2rem;
+}
+
+.headerContainer {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("resources/header-bc.png");
+  height: 40vh;
+}
+
+.headerBc {
+  height: 30rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.logoH {
+  /* max-height: 6rem; */
+  width: auto;
+  position: absolute;
+  /* top: 0.5rem; */
+  /* left: 85vh; */
+  z-index: +1;
+}
+
+.navbar {
+  justify-content: center;
+  background-color: #4cb5ae;
+  /* padding: 0 !important; */
+}
+
+.nav {
+  display: flex;
+  margin: 0.2rem 2rem;
+}
+
+.navLink {
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 1.2rem;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* About Us */
+
+.about-us {
+  margin: 50px 0;
+}
+
+.about-us .about-content {
+  padding: 40px;
+}
+/* 
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.about-us .title {
+  font-size: 60px;
+  margin-bottom: 40px;
+  color: #195b6b;
+}
+
+.about-us .about-content .line-1 {
+  width: 50%;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #4cb5ae;
+}
+
+.about-us .text {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 30px;
+  width: 90%;
+  margin-bottom: 35px;
+}
+.container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us img {
+  border-radius: 15px;
+  width: 35vw;
+}
+
+/* Cards */
+
+.cards {
+  background: url("resources/cards-bc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.cards .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(25, 91, 107, 0.7);
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+  height: 60vh;
+  color: #fff;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 10px;
+}
+
+.cards .content:hover {
+  background: #195b6b;
+  transition: 0.3s ease;
+}
+
+.cards .content img {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.cards .content h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.cards .content .text {
+  font-size: 1.2rem;
+  padding: 2px;
+}
+
+/* Services */
+
+.services {
+  margin: 80px 0;
+}
+
+.services .services-one h2 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #195b6b;
+}
+
+.services .services-one .line-2 {
+  text-align: center;
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #4cb5ae;
+}
+
+.services .services-one p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.services .services-two {
+  margin: 40px 0;
+}
+
+.services .services-two h3 {
+  text-align: center;
+  color: #195b6b;
+  margin-bottom: 20px;
+}
+
+.services .services-two ul li {
+  font-size: 1.1rem;
+  font-weight: 500;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.services .services-two ul li .avion {
+  width: 1.5vw;
+  margin-right: 7px;
+}
+
+.services .services-three {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .services-three img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Contacts */
+
+.contacts {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.contacts .line-3 {
+  text-align: center;
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #4cb5ae;
+  margin-bottom: 50px;
+}
+
+.contactosT {
+  text-align: center;
+  color: #195b6b;
+  font-size: 2rem;
+}
+
+/* Footer */
+
+footer {
+  background: #c5f7f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+footer img {
+  width: 40vh;
+}
+
+/* Media Query */
+@media screen and (max-width: 1440px) {
+  .about-us img {
+    border-radius: 15px;
+    width: 43vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* HEADER */
+  /* .logoH {
+    left: 27vh;
+  } */
+  .nav {
+    margin: 0.2rem 0.5rem;
+  }
+
+  /* About us */
+
+  .about-us .about-content {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .about-us .about-content article {
+    margin: 20px;
+  }
+
+  .about-us .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .about-us .text {
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 20px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .about-us img {
+    padding: 10px;
+    border-radius: 25px;
+    width: 45vw;
+  }
+
+  /* Cards */
+  .cards {
+    height: 43vh;
+  }
+
+  .cards .content {
+    height: 31vh;
+  }
+
+  .cards .content img {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+
+  .cards .content h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .cards .content .text {
+    font-size: 0.65rem;
+    padding: 2px;
+  }
+
+  /* Services */
+  .services {
+    margin: 40px;
+  }
+
+  .services .services-three img {
+    height: 15vh;
+  }
+  .services .services-two ul li .avion {
+    width: 2.5vw;
+  }
+
+  /*FOOTER*/
+  footer {
+    height: 17vh;
+  }
+  footer img {
+    width: 20vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Header */
+  .container-header {
+    height: 35vh;
+    background-position: center;
+  }
+
+  .navLink {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0 30px;
+  }
+
+  /* About us */
+  .about-us {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-us .text {
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 22px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .services .services-one h2 {
+    font-size: 2.5rem;
+  }
+
+  .services .services-one p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .services .services-two h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .services .services-two ul {
+    padding: 0;
+  }
+
+  .services .services-two ul li {
+    font-size: 0.9rem;
+  }
+
+  .services .services-three img {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* Header */
+
+  .container-header {
+    height: 40vh;
+  }
+
+  .logoH {
+    width: 60vw;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navLink {
+    margin: 0 4px;
+  }
+
+  /* About us */
+
+  .about-img {
+    display: none;
+  }
+
+  .container-article {
+    width: 100%;
+  }
+
+  /* Cards */
+  .cards {
+    height: 100vh;
+  }
+
+  .cards .carta {
+    width: auto;
+  }
+
+  /* Services */
+
+  .services .services-one h2 {
+    font-size: 2rem;
+  }
+
+  .services .services-three {
+    display: none;
+  }
+
+  .services .services-two {
+    width: 100%;
+  }
+}
